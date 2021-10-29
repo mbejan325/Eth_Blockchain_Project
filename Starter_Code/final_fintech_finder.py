@@ -76,10 +76,15 @@ from typing import Any, List
 # * `get_balance`
 # * `send_transaction`
 
+import streamlit as st
+from streamlit.components.v1 import components
+from dataclasses import dataclass
+from typing import Any, List
+
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-# YOUR CODE HERE
+from final_crypto_wallet import w3, generate_account, get_balance, send_transaction
 
 ################################################################################
 # Fintech Finder Candidate Information
@@ -130,7 +135,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-# YOUR CODE HERE
+account = generate_account(w3)
 
 ##########################################
 
