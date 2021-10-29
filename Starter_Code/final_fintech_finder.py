@@ -84,7 +84,7 @@ from typing import Any, List
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-from final_crypto_wallet import w3, generate_account, get_balance, send_transaction
+from final_crypto_wallet import generate_account, get_balance, send_transaction
 
 ################################################################################
 # Fintech Finder Candidate Information
@@ -125,7 +125,7 @@ st.text(" \n")
 ################################################################################
 # Streamlit Sidebar Code - Start
 
-st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
+st.sidebar.markdown("## Client Account Address and Ethereum Balance in Ether")
 
 ##########################################
 # Step 1 - Part 4:
@@ -155,7 +155,6 @@ ether_bal = get_balance(account.address)
 st.sidebar.markdown("## Your current balance of Ether is")
 st.sidebar.markdown(ether_bal)
 st.sidebar.markdown("---------")
-st.sidebar.markdown("Thank you!")
 ##########################################
 
 # Create a select box to chose a FinTech Hire candidate
