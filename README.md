@@ -4,7 +4,7 @@
 
 ![markdown-image](ethchain.jpg)
 
-
+This repository contains the files to launch a site that is integrated with the Ethereum Blockchain. Users will be able to find, hire, and instantly pay FinTech professionals of their choice from the selection available. 
 
 **Technologies** 
 
@@ -22,15 +22,26 @@ Operating System: Windows 10
 
 1) Clone the repository
 2) Open up your python CLI and activate the 'dev', or other appropriate, environment. Python version 3.7.10 needs to be used.
-3)
+3) Open up VS Code in the appropriate folder, "Eth_Blockchain_Project".
+4) In an integrated terminal open the "final_fintech_finder.py" file.
+5) Run the code "streamlit run final_fintech_finder.py", this will open up the website and allow users to hire and pay advisors. 
 
-**Webpage**
+**Webpage Display and Usage**
 
 This is a screenshot of the webpage when it is first opened.
-![markdown-image](Blockchain2.PNG)
+![markdown-image](Capture.PNG)
 
-This is a screenshot of a transaction being entered and verified. Looking at the Block Inspector section, users can see the new transaction in the block.
-![markdown-image](Blockchain3.PNG)
+This is a screenshot of a the transaction interface.
+![markdown-image](Capture1.PNG)
+
+This is a screenshot of a completed and validated transaction.
+![markdown-image](Capture2.PNG)
+
+This is a screenshot of Etherscan, a site that allows you to track blockchain transactions.
+![markdown-image](Capture3.PNG)
+
+This is a screenshot of the example transaction on Etherscan.
+![markdown-image](Capture4.PNG)
 
 **Contributors**
 
