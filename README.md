@@ -23,8 +23,9 @@ Operating System: Windows 10
 1) Clone the repository
 2) Open up your python CLI and activate the 'dev', or other appropriate, environment. Python version 3.7.10 needs to be used.
 3) Open up VS Code in the appropriate folder, "Eth_Blockchain_Project".
-4) In an integrated terminal open the "final_fintech_finder.py" file.
-5) Run the code "streamlit run final_fintech_finder.py", this will open up the website and allow users to hire and pay advisors. 
+4) Ensure you have a ".env" file with you mnemonic saved. 
+5) In an integrated terminal open the "final_fintech_finder.py" file.
+6) Run the code "streamlit run final_fintech_finder.py", this will open up the website and allow users to hire and pay advisors. 
 
 **Webpage Display and Usage**
 
