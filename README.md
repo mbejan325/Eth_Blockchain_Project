@@ -30,18 +30,23 @@ Operating System: Windows 10
 **Webpage Display and Usage**
 
 This is a screenshot of the webpage when it is first opened.
+
 ![markdown-image](Capture.PNG)
 
 This is a screenshot of the sidebar, showing the transaction interface.
+
 ![markdown-image](Capture1.PNG)
 
 This is a screenshot of a completed and validated transaction.
+
 ![markdown-image](Capture2.PNG)
 
 This is a screenshot of Etherscan, a site that allows you to track blockchain transactions.
+
 ![markdown-image](Capture3.PNG)
 
 This is a screenshot of the example transaction found on Etherscan.
+
 ![markdown-image](Capture4.PNG)
 
 **Contributors**
